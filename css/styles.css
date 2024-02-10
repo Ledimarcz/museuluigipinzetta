@@ -1,0 +1,113 @@
+@font-face {
+	font-family: SwitzeraADF--Light;
+	src: url(../fonts/SwitzeraADF-Light.otf);
+}
+:root {
+	--white: white;
+	--black: black;
+	--white-smoke: #e9e9e9;
+	--light-grey: #dfdfdf;
+	--soft-grey: 	#b0b0b0;
+	--dark-grey: #2d2d2d;
+	--soft-black: #181818;
+	--blue: #00509e;
+	--red: #fc3131;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-family: "SwitzeraADF--Light";
+	overflow-x: hidden;
+}
+* a {
+	text-decoration: none;
+	cursor: pointer;
+	color: var(--white-smoke);
+}
+* li {
+	list-style-type: none;
+}
+* button, .clicable {
+	cursor: pointer;
+}
+body {
+	background-color: var(--white-smoke);
+}
+
+* input {
+	outline: none;
+	border: none;
+}
+
+.icon {
+	font-size: 1.5rem;
+}
+
+.container {
+	padding: 1rem;
+}
+
+/* header */
+
+header {
+	background-color: var(--soft-grey);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+.header-desktop {
+	display: flex;
+	align-items: flex-end;
+	gap: 2rem;
+	margin-left: 3rem;
+	padding: 1rem 1rem 0 0;
+}
+.header-desktop img {
+	width: 6rem;
+}
+.wrap-header {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.header-desktop span {
+	font-size: 3rem;
+}
+.navbar-desktop ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: var(--red);
+	color: var(--white-smoke);
+	padding: .7rem;
+}
+
+/* banner */
+
+.banner {
+	background-image: url(../img/banner.jpg);
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+@media (max-width: 992px) {
+	 
+	
+
+}
+
+@media (max-width: 768px) {
+
+	
+	
+}
